@@ -1,0 +1,73 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+.creative{
+  color: midnightblue;
+}
+  
+/* the 2 div containers containing h2+paragraf+image */
+.card{
+    width: 45%;
+  } 
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+} 
+
+.tile-image{
+  height: 200px;  
+  float: left;
+  margin-right: 30px;
+  /*width: 50%;  size of the picture reduction (another way reducing the  picture size)*//
+  }  
+
+/* responce of the web page to smaller screens */
+ @media (max-width: 600px){
+  .logo{
+    width: 100px;
+  }
+
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+
+  .card img{
+    width: 100%;
+    display: inline;
+    margin-bottom: 10px;
+    object-fit: cover;
+
+  }
+
+} 
